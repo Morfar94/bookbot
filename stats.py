@@ -16,3 +16,16 @@ def count_letters(book_text):
         else:
             letters_dictionary[letter] = 1
     return letters_dictionary
+
+def reformat_dict(dict):
+    formatted_list = []
+    for key in dict:
+        temp_dict = {}
+        num = dict[key]
+        temp_dict['char'] = key
+        temp_dict['num'] = num
+        formatted_list.append(temp_dict)
+    return formatted_list
+
+def sort_on(dict):
+    return dict["num"]
