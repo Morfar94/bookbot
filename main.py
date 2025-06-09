@@ -12,7 +12,7 @@ def main():
         letter_amount = count_letters(book_text)
         list_of_chars = reformat_dict(letter_amount)
         print('============ BOOKBOT ============')
-        print(f'Analyzing book found at {sys.argv[1]}')
+        print(f'Analyzing book found at {sys.argv[1]}...')
         print('----------- Word Count ----------')
         print(f'Found {word_amount} total words')
         print('--------- Character Count -------')
